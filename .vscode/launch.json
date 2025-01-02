@@ -1,0 +1,88 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "bourne_json",
+            "cwd": "flutter_workshop/capstone/bourne_json",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "bourne_json (profile mode)",
+            "cwd": "flutter_workshop/capstone/bourne_json",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "bourne_json (release mode)",
+            "cwd": "flutter_workshop/capstone/bourne_json",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "bourne_json",
+            "cwd": "flutter_workshop/capstone/lab03/bourne_json",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "bourne_json (profile mode)",
+            "cwd": "flutter_workshop/capstone/lab03/bourne_json",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "bourne_json (release mode)",
+            "cwd": "flutter_workshop/capstone/lab03/bourne_json",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "bourne_json",
+            "cwd": "flutter_workshop/capstone/lab04/bourne_json",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "bourne_json (profile mode)",
+            "cwd": "flutter_workshop/capstone/lab04/bourne_json",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "bourne_json (release mode)",
+            "cwd": "flutter_workshop/capstone/lab04/bourne_json",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "bourne_json",
+            "cwd": "flutter_workshop/capstone/lab05/bourne_json",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "bourne_json (profile mode)",
+            "cwd": "flutter_workshop/capstone/lab05/bourne_json",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "bourne_json (release mode)",
+            "cwd": "flutter_workshop/capstone/lab05/bourne_json",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}

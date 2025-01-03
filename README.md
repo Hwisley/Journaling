@@ -18,3 +18,9 @@ Daily Jornaling을 어플로 만들려고 한다. 내 Daily Jornal을 어플로 
 
 개발 언어: Flutter
   어플로도 접근 가능하고, 웹(컴퓨터)로도 접근이 가능했으면 좋겠기 때문이다.
+
+## This branch is for studying Flutter and Dart
+
+- Dart Basic Grammar https://github.com/rosera/flutter_workshop.git
+
+- Flutter Basic Components https://github.com/material-components/material-components-flutter-codelabs.git

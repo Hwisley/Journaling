@@ -117,7 +117,18 @@ class FavoriteWordPage extends StatelessWidget {
     var appState = context.watch<MyAppState>();
     var favorites = appState.favorites;
 
-    return Column(children: [for (var word in favorites) Text(word.asString)]);
+    return ListView.builder(
+        itemCount: favorites.length,
+        itemBuilder: (context, index) {
+          return Container(
+            color: Colors.blueGrey,
+            margin: EdgeInsets.symmetric(vertical: 8.0),
+            child: ListTile(
+                hoverColor: Colors.purple,
+                selectedColor: Colors.red,
+                title: Text(favorites[index].asString)),
+          );
+        });
   }
 }
 

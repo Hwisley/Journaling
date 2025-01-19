@@ -116,13 +116,8 @@ class FavoriteWordPage extends StatelessWidget {
   Widget build(BuildContext context) {
     var appState = context.watch<MyAppState>();
     var favorites = appState.favorites;
-    List<Text> texts = [];
 
-    for (int i = 0; i < favorites.length; i++) {
-      texts.add(Text(favorites[i].asString));
-    }
-
-    return Column(children: texts);
+    return Column(children: [for (var word in favorites) Text(word.asString)]);
   }
 }
 

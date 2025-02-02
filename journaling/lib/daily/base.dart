@@ -13,11 +13,18 @@ class DailyBase extends StatelessWidget {
           style: TextStyle(fontFamily: 'Billabong', fontSize: 32),
         ),
       ),
-      body: Column(
-        children: [
-          const Text('This is base page for daily journaling'),
-          HourlyPlan(),
-        ],
+      body: Container(
+        padding: const EdgeInsets.all(16),
+        child: Center(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              // TODO: get today's date
+              Center(child: const Text('Sunday, 2nd')),
+              HourlyPlanner()
+            ],
+          ),
+        ),
       ),
     );
   }

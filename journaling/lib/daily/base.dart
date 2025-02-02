@@ -6,11 +6,19 @@ class DailyBase extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: [
-        const Text('Hello, world!'),
-        HourlyPlan(),
-      ],
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text(
+          'Journaling',
+          style: TextStyle(fontFamily: 'Billabong', fontSize: 32),
+        ),
+      ),
+      body: Column(
+        children: [
+          const Text('This is base page for daily journaling'),
+          HourlyPlan(),
+        ],
+      ),
     );
   }
 }

@@ -51,6 +51,8 @@ class MyAppState extends ChangeNotifier {
 // ...
 
 class MyHomePage extends StatefulWidget {
+  const MyHomePage({super.key});
+
   @override
   State<MyHomePage> createState() => _MyHomePageState();
 }
@@ -112,6 +114,8 @@ class _MyHomePageState extends State<MyHomePage> {
 }
 
 class FavoriteWordPage extends StatelessWidget {
+  const FavoriteWordPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     var appState = context.watch<MyAppState>();
@@ -133,6 +137,8 @@ class FavoriteWordPage extends StatelessWidget {
 }
 
 class GeneratorPage extends StatelessWidget {
+  const GeneratorPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     var appState = context.watch<MyAppState>();

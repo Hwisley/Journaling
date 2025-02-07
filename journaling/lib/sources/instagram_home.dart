@@ -5,6 +5,8 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -15,6 +17,8 @@ class MyApp extends StatelessWidget {
 }
 
 class InstagramHome extends StatefulWidget {
+  const InstagramHome({super.key});
+
   @override
   _InstagramHomeState createState() => _InstagramHomeState();
 }
@@ -22,7 +26,7 @@ class InstagramHome extends StatefulWidget {
 class _InstagramHomeState extends State<InstagramHome> {
   int _selectedIndex = 0;
 
-  static List<Widget> _pages = <Widget>[
+  static final List<Widget> _pages = <Widget>[
     FeedPage(),
     const Center(child: Text('Search Page')),
     const Center(child: Text('Reels Page')),
@@ -73,6 +77,8 @@ class _InstagramHomeState extends State<InstagramHome> {
 }
 
 class FeedPage extends StatelessWidget {
+  const FeedPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return ListView.builder(

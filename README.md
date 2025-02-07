@@ -1,26 +1,20 @@
 # Journaling_app
 
-## Project Description
+## Overview
+This project aims to develop a **Daily Journaling Application** with essential features for planning, tracking habits, and reflecting on daily activities.
 
-Daily Jornaling을 어플로 만들려고 한다. 내 Daily Jornal을 어플로 만드는 것.
-홈 화면
-  afternoon: Time block
-  evening: 통계적인 Time block or 전체 저널링
-저녁 알람
-  habit Tracker 기능 체크
-  Snooze 기능넣기
-기타
-  Widget 제공하면 좋겠다.
-통계칸
-  15일 주기
-  10일 주기
-  한달 주기
+## ✨ Main Features
+### 1. Daily Journaling
+The application provides structured journaling sheets:
+- **Daily Planner**: Hourly time table for organizing tasks.
+- **Habit Tracker**: Track daily habits and routines.
+- **Daily Diary**: Space for personal reflections and notes.
 
-개발 언어: Flutter
-  어플로도 접근 가능하고, 웹(컴퓨터)로도 접근이 가능했으면 좋겠기 때문이다.
+### 2. Journaling Analysis
+- Provides an **overview of daily journaling entries**.
+- Helps users **analyze patterns and trends** in their journaling activity.
 
-## This branch is for studying Flutter and Dart
+## 🎯 Goal
+- Complete development and publish the application.
 
-- Dart Basic Grammar https://github.com/rosera/flutter_workshop.git
 
-- Flutter Basic Components https://github.com/material-components/material-components-flutter-codelabs.git

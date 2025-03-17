@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class HourlyTableSheet extends StatefulWidget {
+  const HourlyTableSheet({super.key});
+
   @override
   _HourlyTableSheetState createState() => _HourlyTableSheetState();
 }
@@ -38,6 +40,8 @@ class _HourlyTableSheetState extends State<HourlyTableSheet> {
 }
 
 class DailyTodo extends StatelessWidget {
+  const DailyTodo({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Text('todos');
@@ -45,6 +49,8 @@ class DailyTodo extends StatelessWidget {
 }
 
 class HourlyTable extends StatefulWidget {
+  const HourlyTable({super.key});
+
   @override
   _HourlyTableState createState() => _HourlyTableState();
 }

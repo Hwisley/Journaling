@@ -3,6 +3,8 @@ import 'package:journaling/daily/hourly_table.dart';
 import 'package:journaling/daily/review.dart';
 
 class HourlyPlanner extends StatelessWidget {
+  const HourlyPlanner({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Container(
